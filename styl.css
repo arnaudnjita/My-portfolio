@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    position: relative;
+    /* background-color: rgba(11, 10, 12, 0.93); */
+    background-color: rgb(18, 1, 36);
+    height: 100px;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    left: 5px;
+    height: 90px;
+}
+
+.user {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    display: inline-block;
+    color: white;
+    border-bottom: solid 3px rgb(29, 250, 29);
+    left: 110px;
+    top: 46px;
+    padding: 5px 3px;
+    font-size: 20px;
+}
+
+.container {
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    margin: 30px 0;
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    border: solid 1px rgb(29, 250, 29);
+    border-radius: 1px;
+    text-align: center;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(15, 200, 15);
+    color: black;
+    font-weight: bold;
+}
+
+a.active {
+    background-color: rgb(15, 200, 15);
+    color: black;
+    font-weight: bold;
+}
+
+.bg {
+    width: 100%;
+    height: 85.5vh;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(6, 7, 6, 0.26), rgba(0, 0, 0, 0)),
+        url(./home\ img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caption {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: solid 2px rgb(15, 200, 15); */
+    border-radius: 1px;
+    padding: 10px;
+}
+
+.name {
+    color: rgb(29, 250, 29);
+}
+
+.job-name {
+    border-bottom: solid 5px white;
+}
+
+.w {
+    font-size: 70px;
+}
+
+.d {
+    font-size: 70px;
+}
+
+.h {
+    font-size: 70px;
+}
+
+/* .bg-AFC {
+    width: 100%;
+    height: 85.5vh;
+    background: 
+    url(./bg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.my-pic-div {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    /* border: solid 2px rgb(15, 200, 15); */
+    border-radius: 10px;
+
+
+}
+
+.my-pic {
+    position: relative;
+    left: -25px;
+    height: 400px;
+    border-radius: 100px;
+
+}
+
+body {
+    background-image: url(./bg.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-me {
+    position: relative;
+    top: -350px;
+    left: 30vw;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+
+}
+
+.about-me p {
+    text-align: center;
+}
+
+.skill-div {
+    position: relative;
+    text-align: left;
+    top: -300px;
+    left: 30vw;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+
+}
+
+.skill-div p {
+    text-align: center;
+}
+
+.q {
+    font-family: fantasy;
+    color: rgb(240, 32, 32);
+    font-size: 50px;
+}
+
+.who {
+    /* font-family: fantasy; */
+    font-size: 40px;
+    color: rgb(55, 186, 247);
+}
+
+.what {
+    /* font-family: fantasy; */
+    color: rgb(55, 186, 247);
+    font-size: 40px;
+}
+
+.keys {
+    /* font-style: italic; */
+    font-family: fantasy;
+    color: rgb(29, 250, 29);
+    font-size: 30px;
+}
+
+.contact {
+    position: relative;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+    /* display: block; */
+    /* color: white; */
+    /* top: 20px; */
+    /* left: 50px; */
+}
+
+.img {
+    position: relative;
+    height: 30px;
+    left: 10px;
+    /* padding-right: 20px; */
+}
+
+.tel-div {
+    position: absolute;
+    left: 10px;
+    /* margin-left: 0; */
+    /* font-family: fantasy; */
+    /* font-size: 20px; */
+    height: 30px;
+    /* padding: 5px; */
+    /* position: absolute; */
+    display: block;
+    /* margin-top: 10px; */
+    /* top: 110px; */
+    /* color: rgb(29, 250, 29); */
+    color: rgb(29, 250, 29);
+    letter-spacing: 1px;
+    /* left: 20px; */
+}
+
+.whatsapp-div {
+    position: absolute;
+    /* margin: 0; */
+    /* border: solid; */
+    color: rgb(29, 250, 29);
+    /* font-size: 20px; */
+    height: 30px;
+    /* font-family: fantasy; */
+    font-size: 30px;
+    /* position: absolute; */
+    display: block;
+    letter-spacing: 1px;
+}
